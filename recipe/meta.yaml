@@ -12,15 +12,19 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
     - python
     - setuptools
+    - jdcal
+    - et_xmlfile
   run:
     - python
+    - jdcal
+    - et_xmlfile
 
 test:
   imports:
