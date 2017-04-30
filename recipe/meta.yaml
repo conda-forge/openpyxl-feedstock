@@ -1,6 +1,6 @@
 {% set name = "openpyxl" %}
-{% set version = "2.4.5" %}
-{% set sha256 = "78c331e819fb0a63a1339d452ba0b575d1a31f09fdcce793a31bec7e9ef4ef21" %}
+{% set version = "2.4.7" %}
+{% set sha256 = "fe00ef04c5560504c625cac9f18913a1d3fb414f0560e715af95d894a6b43d63" %}
 
 package:
   name: {{ name|lower }}
@@ -19,8 +19,6 @@ requirements:
   build:
     - python
     - setuptools
-    - jdcal
-    - et_xmlfile
   run:
     - python
     - jdcal
@@ -47,8 +45,6 @@ test:
     - openpyxl.worksheet
     - openpyxl.writer
     - openpyxl.xml
-    - scratchpad
-    - scratchpad.benchmarks
 
 about:
   home: https://openpyxl.readthedocs.io
