@@ -60,6 +60,7 @@ about:
     xlsx/xlsm/xltx/xltm files.
   doc_url: https://openpyxl.readthedocs.io/
   dev_url: https://bitbucket.org/openpyxl/openpyxl/
+  doc_source_url: https://bitbucket.org/openpyxl/openpyxl/src/default/doc/index.rst
 
 extra:
   recipe-maintainers:
