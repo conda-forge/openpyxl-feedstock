@@ -16,9 +16,8 @@ xlsx/xlsm/xltx/xltm files.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/openpyxl-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/openpyxl-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/openpyxl-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/openpyxl-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/openpyxl-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/openpyxl-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/openpyxl-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/openpyxl-feedstock)
 
 Current release info
 ====================
