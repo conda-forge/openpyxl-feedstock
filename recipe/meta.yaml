@@ -1,6 +1,6 @@
 {% set name = "openpyxl" %}
-{% set version = "2.5.4" %}
-{% set sha256 = "9239b74faf175dc4276a5fc277655fc53c2f704ded39e680d35e6a39e1913f69" %}
+{% set version = "2.5.5" %}
+{% set sha256 = "0f391b0035d7c98f25aad539726e8efc77eea250ff1a120ea7d264c03a16f5fe" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
