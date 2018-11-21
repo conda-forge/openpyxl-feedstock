@@ -1,6 +1,6 @@
 {% set name = "openpyxl" %}
-{% set version = "2.5.9" %}
-{% set sha256 = "022c0f3fa1e873cc0ba20651c54dd5e6276fc4ff150b4060723add4fc448645e" %}
+{% set version = "2.5.11" %}
+{% set sha256 = "8b0c2a44f394a7a913a2e7cdcc1dc601d5f45c59b85a356e591e2ac5463e21e7" %}
 
 package:
   name: {{ name|lower }}
