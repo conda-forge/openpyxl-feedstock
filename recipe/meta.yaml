@@ -1,4 +1,4 @@
-{% set version = "2.4.11" %}
+{% set version = "2.6.3" %}
 
 package:
   name: openpyxl
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/openpyxl/openpyxl-{{ version }}.tar.gz
-  sha256: 626d38647c063d55803ef4971c4d43226538d4e95cb6260c094e363ee33e10c7
+  sha256: 72d1ed243972cad0b3c236230083cac00d9c72804e64a2ae93d7901aec1a8f1c
 
 build:
   number: 0
