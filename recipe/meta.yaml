@@ -15,10 +15,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - jdcal
     - et_xmlfile
 
@@ -35,6 +35,7 @@ test:
     - openpyxl.formatting
     - openpyxl.formula
     - openpyxl.packaging
+    - openpyxl.pivot
     - openpyxl.reader
     - openpyxl.styles
     - openpyxl.utils
