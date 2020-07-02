@@ -1,4 +1,4 @@
-{% set version = "3.0.3" %}
+{% set version = "3.0.4" %}
 
 package:
   name: openpyxl
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/openpyxl/openpyxl-{{ version }}.tar.gz
-  sha256: 547a9fc6aafcf44abe358b89ed4438d077e9d92e4f182c87e2dc294186dc4b64
+  sha256: d88dd1480668019684c66cfff3e52a5de4ed41e9df5dd52e008cbf27af0dbf87
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -50,7 +50,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENCE.rst
-  summary: 'A Python library to read/write Excel 2010 xlsx/xlsm files'
+  summary: A Python library to read/write Excel 2010 xlsx/xlsm files
   description: |
     openpyxl is a Python library to read/write Excel 2010
     xlsx/xlsm/xltx/xltm files.
