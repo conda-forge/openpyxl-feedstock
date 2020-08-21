@@ -5,7 +5,7 @@ Home: https://openpyxl.readthedocs.io
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Python library to read/write Excel 2010 xlsx/xlsm files
 
