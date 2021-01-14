@@ -5,9 +5,13 @@ Home: https://openpyxl.readthedocs.io
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openpyxl-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python library to read/write Excel 2010 xlsx/xlsm files
+
+Development: https://bitbucket.org/openpyxl/openpyxl/
+
+Documentation: https://openpyxl.readthedocs.io/
 
 openpyxl is a Python library to read/write Excel 2010
 xlsx/xlsm/xltx/xltm files.
