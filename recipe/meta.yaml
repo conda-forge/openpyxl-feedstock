@@ -1,4 +1,4 @@
-{% set version = "3.0.8" %}
+{% set version = "3.0.9" %}
 
 package:
   name: openpyxl
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/openpyxl/openpyxl-{{ version }}.tar.gz
-  sha256: 4f2770348c029ce9433316ced8f91ed37d2a605e654f8bfdc93a3524561a8ce2
+  sha256: 40f568b9829bf9e446acfffce30250ac1fa39035124d55fc024025c41481c90f
 
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -19,7 +19,6 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - jdcal
     - et_xmlfile
 
 test:
