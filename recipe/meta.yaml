@@ -11,7 +11,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -19,7 +19,6 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - jdcal
     - et_xmlfile
 
 test:
