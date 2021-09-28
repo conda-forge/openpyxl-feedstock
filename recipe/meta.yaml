@@ -44,6 +44,7 @@ test:
     - openpyxl.worksheet
     - openpyxl.writer
     - openpyxl.xml
+    - jdcal
 
 about:
   home: https://openpyxl.readthedocs.io
