@@ -10,15 +10,17 @@ source:
 
 build:
   number: 0
-  noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  skip: True  # [py<36]
+  script: {{ PYTHON }} -m pip install . -vv --global-option="--with-cython"
 
 requirements:
   host:
-    - python >=3.6
+    - python
     - pip
+    - cython
+    - {{ compiler('c') }}
   run:
-    - python >=3.6
+    - python
     - et_xmlfile
 
 test:
