@@ -1,4 +1,4 @@
-{% set version = "3.0.10" %}
+{% set version = "3.1.0" %}
 
 package:
   name: openpyxl
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/openpyxl/openpyxl-{{ version }}.tar.gz
-  sha256: e47805627aebcf860edb4edf7987b1309c1b3632f3750538ed962bbcc3bd7449
+  sha256: eccedbe1cdd8b2494057e73959b496821141038dbb7eb9266ea59e3f34208231
 
 build:
-  number: 2
-  skip: True  # [py<36]
+  number: 0
+  skip: true  # [py<36]
   script: {{ PYTHON }} -m pip install . -vv --global-option="--with-cython"
 
 requirements:
