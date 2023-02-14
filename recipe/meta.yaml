@@ -20,7 +20,7 @@ requirements:
     - cython                                 # [build_platform != target_platform]
   host:
     - python
-    - pip
+    - pip >=18.0
     - cython
     - {{ compiler('c') }}
   run:
@@ -59,9 +59,8 @@ about:
   description: |
     openpyxl is a Python library to read/write Excel 2010
     xlsx/xlsm/xltx/xltm files.
-  doc_url: https://openpyxl.readthedocs.io/
-  dev_url: https://bitbucket.org/openpyxl/openpyxl/
-  doc_source_url: https://bitbucket.org/openpyxl/openpyxl/src/default/doc/index.rst
+  doc_url: https://openpyxl.readthedocs.io/en/stable/
+  dev_url: https://foss.heptapod.net/openpyxl/openpyxl/
 
 extra:
   recipe-maintainers:
