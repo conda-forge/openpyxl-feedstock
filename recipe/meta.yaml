@@ -9,7 +9,7 @@ source:
   sha256: a6f5977418eff3b2d5500d54d9db50c8277a368436f4e4f8ddb1be3422870184
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<36]
   script: {{ PYTHON }} -m pip install . -vv --global-option="--with-cython"
 
