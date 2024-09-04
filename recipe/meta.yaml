@@ -23,6 +23,7 @@ requirements:
     - pip >=18.0
     - cython
     - {{ compiler('c') }}
+    - setuptools
   run:
     - python
     - et_xmlfile
