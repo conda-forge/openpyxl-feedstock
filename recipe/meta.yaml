@@ -11,7 +11,7 @@ source:
 build:
   number: 3
   skip: true  # [py<36]
-  script: {{ PYTHON }} -m pip install . -vv --global-option="--with-cython"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
